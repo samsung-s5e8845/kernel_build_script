@@ -11,7 +11,7 @@ tools/bazel run \
   --show_progress \
   --progress_report_interval=10 \
   --nocheck_bzl_visibility \
-  --lto=thin \
+  --lto=none \
   --config=stamp \
   --sandbox_debug \
   --verbose_failures \
